@@ -308,7 +308,7 @@ footer{
     gap: 12px;
 }
 
-.social-links p{
+.social-links {
     color: #FFFFFF;
     font-size: 20px;
     font-weight: 500;
@@ -318,15 +318,18 @@ footer{
 .social-icons{
     display: flex;            
     align-items: center;
-    gap: 15px;
-}
-
-.social-icons i,
-.social-icons h1{
-    color: #FFFFFF;
+    gap: 16px;
     cursor: pointer;
 }
 
+.social-icons img{
+    width: 20px;
+    height: 20px;
+}
+
+hr{
+    opacity: 20%; 
+}
 .footer-part2{
     margin-top: 40px;
     text-align: center;
@@ -334,5 +337,5 @@ footer{
 
 .footer-part2 p{
     color: #FFFFFF;
-    font-size: 14px;
+    font-size: 16px;
 }
