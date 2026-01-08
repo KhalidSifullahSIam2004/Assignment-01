@@ -6,6 +6,7 @@
     gap: 346px;
     max-width: 1600px;
     max-height: 92px;
+    background-color: #FFFFFF;
 }
 
 .logo img{
@@ -72,6 +73,7 @@
     width: 229px;
     height: 35px;
     border-radius: 1000px;
+    cursor: pointer;
 
 }
 
@@ -87,6 +89,11 @@
     color: #469165;
     font-size: 16px;
     font-weight: 500;
+}
+
+.access-open-btn:hover{
+     background-color: #000000;
+     color: #b8e05b;
 }
 
 #banner h2{
@@ -115,6 +122,7 @@
     display: flex;
     gap: 16px;
     margin: auto;
+    cursor: pointer;
 }
 
 #banner .btns button{
@@ -128,15 +136,25 @@
     border-radius: 4px;
     color: #FFFFFF;
     border: none;
+    cursor: pointer;
 }
-
 
 #banner .btns button:nth-child(1){
     background-color: #30B868;
 }
+
+#banner .btns button:nth-child(1):hover{
+    color: #30B868;
+    background-color: #e7e7e7;
+}
 #banner .btns button:nth-child(2){
     background-color: transparent;
-    border: 1px solid white;
+    border: 1px solid #FFFFFF;
+}
+
+#banner .btns button:nth-child(2):hover{
+    color: #000000;
+    background-color: #FFFFFF;
 }
 
 .notes{
@@ -279,6 +297,11 @@
     background-color: #469165;
     border: none;
     margin: 0 auto;
+    cursor: pointer;
+}
+
+.distribution-area button:hover{
+    background-color: #09bd54;;
 }
 
 .distribution-area p{
