@@ -1,0 +1,44 @@
+.navbar-section{
+    margin: auto 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 346px;
+    max-width: 1600px;
+    max-height: 92px;
+}
+
+.logo img{
+    max-width: 139px;
+    min-height: 60px;
+}
+
+.links{
+    display: flex;
+    gap: 32px;
+}
+
+.links li{
+    list-style: none;
+}
+.links li a{
+    font-size: 16px;
+    text-decoration: none;
+    font-weight: 500;
+    color: #000000;
+}
+
+.early-access-btn{
+    font-size: 16px;
+    font-weight: 600;
+    padding: 12.5px 16px;
+    color: #FFFFFF;
+    background-color: #469165;
+    border: none;
+    border-radius: 4px;
+    
+}
+
+.early-access-btn:hover{
+    background-color: #09bd54;
+}
