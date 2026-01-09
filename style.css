@@ -48,7 +48,6 @@
 #banner{
     background: linear-gradient(rgba(0, 25, 49, 0.8), rgba(0, 25, 49, 0.8)), url('./assets/hero-bg.png');
     background-size: cover;
-    background-position: center;
     background-repeat: no-repeat;
     width: 1600x;
     height: 674px;
@@ -217,10 +216,13 @@
 }
 
 #knowledge{
-    padding: 120px;
+    padding: 120px 0px;
     display: flex;
     align-items: center;
     gap: 60px;
+    margin: 0 auto;
+    width: 1600px;
+    margin-left: 14%;
 }
 
 #knowledge img .knowledge-image{
